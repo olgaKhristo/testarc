@@ -25,35 +25,3 @@ root.render(
 );
 
 
-// import './card.css';
-// import React from 'react';
-
-// function CardComponent({ countryData, index }) { 
-
-//   let countryName = countryData[index].name.common
-//   let population = countryData[index].population
-//   let region = countryData[index].region
-//   let capital = countryData[index].capital
-//   let flag = countryData[index].flags.png
-
-
-//   return (
-//     <div className="card">
-//       <img src={flag} alt={countryName} />
-//       <div className="cardContent">
-//         <p className="country">{countryName}</p>
-//         <p><span>Population:</span> {population}</p>
-//         <p><span>Region:</span> {region}</p>
-//         <p><span>Capital:</span> {capital}</p>
-//       </div>
-//     </div>
-//   )
-// };
-// export default CardComponent;
-
-
-
-
-
-
-

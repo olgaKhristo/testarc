@@ -11,7 +11,7 @@ const EventList = () => {
 
     const fetchEvents = async () => {
         try {
-            const token = "The JWT from the Auth request"; 
+            const token = "Bearer Token: The JWT from the Auth request"; 
             // Replace with your actual Bearer token
             const response = await axios.get(
                 `https://api.arenaracingcompany.co.uk/event/month/1318/${month}`,
@@ -34,8 +34,8 @@ const EventList = () => {
                 value={month}
                 onChange={(e) => setMonth(e.target.value)}
             >
-                <option value="1">January</option>
-                <option value="2">February</option>
+                <option value="1">July</option>
+                <option value="2">August</option>
                 {/* Add options for other months */}
             </select>
             <ul>
