@@ -1,7 +1,8 @@
 # To see deployed project go to:
-
-
-# 
+https://gleaming-syrniki-97bba7.netlify.app/
+# To run on your local host:
+https://github.com/olgaKhristo/testarc.git
+clone the link and -npm start (remember to cd in /testarc)
 # Developer Notes
 ### Component Tree
 testarc/
@@ -11,8 +12,8 @@ testarc/
   |   |   ├── SearchBar.js
   │   │   └── App.js
   │   |   
-  │   ├── styles/
-  │   │   └── main.css
+  │   ├── index.css
+  │   │   
   │   └── index.js
   ├── public/
   │   └── index.html
