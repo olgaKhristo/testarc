@@ -3,9 +3,10 @@ import axios from "axios";
 
 const EventList = () => {
     const [events, setEvents] = useState([]);
-    const [month, setMonth] = useState(new Date().getMonth() + 3); // Set initial month to current month
+    const [month, setMonth] = useState(new Date().getMonth() + 3); // Set it to current month + 3
 
     const fetchEvents = useCallback(async () => {
+        
         const url = "https://api.arenaracingcompany.co.uk/auth";
         const bearerToken = "264c77f740cc1f02cac8f0a7e30ccdcd2f20dcf5";
         const headers = {
